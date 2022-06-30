@@ -143,3 +143,9 @@
 			});
 
 })(jQuery);
+
+// const loginError = document.querySelector('.loginError')
+
+// loginError.addEventListener('error', (event)=>{
+// 	console.log(event)
+// })

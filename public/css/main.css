@@ -2138,6 +2138,14 @@ input, select, textarea {
 					width: calc(25% - 0.375em);
 				}
 
+				.loginError{
+					color: red;
+					font-weight: 600;
+				}
+				.hidden{
+					display: none;
+				}
+
 		@media screen and (max-width: 480px) {
 
 			form > .fields {

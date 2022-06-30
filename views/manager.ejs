@@ -21,7 +21,7 @@
 			<!-- Banner -->
 				<section id="banner">
 					<div class="inner">
-						<h2>Welcome *NAME*</h2>
+						<h2 id="welcome">Welcome *name*</h2>
 						<p>What would you like to do?</p>
 					</div>
 				</section>
@@ -36,8 +36,12 @@
 									<form action="/users" method="POST">
 										<div class="fields">
 											<div class="field">
-												<label for="name">Name</label>
-												<input type="text" name="name" placeholder="FULL NAME" id="name" />
+												<label for="firstName">Name</label>
+												<input type="text" name="firstName" id="firstName" placeholder="FIRST NAME"/>
+											</div>
+											<div class="field">
+												<label for="lastName">Name</label>
+												<input type="text" name="lastName" id="lastName"  placeholder="LAST NAME"/>
 											</div>
 											<div class="field">
 												<label for="password">Password</label>

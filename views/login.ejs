@@ -32,7 +32,7 @@
 						<!-- One -->
 							<section id="one" class="wrapper spotlight style1">
 								<div class="inner">
-                                    <form method="post" action="#">
+                                    <form method="post" action="/getUsers">
                                         <div class="fields">
                                             <div class="field">
                                                 <label for="username">Username</label>
@@ -43,6 +43,7 @@
                                                 <input type="text" name="password" id="password" />
                                             </div>
                                         </div>
+										<p class = "hidden loginError">Username or password incorrect, please try again</p>
                                         <ul class="actions">
                                             <li><input type="submit" value="Log In" /></li>
                                         </ul>
